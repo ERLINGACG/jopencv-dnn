@@ -1,0 +1,15 @@
+
+ENV= [
+
+    "E:/VScode/ONNXRuntime/install/lib/onnxruntime.dll", # 一定要先加载这玩意，不然会先加载傻逼微软硬塞的C:\Windows\System32\onnxruntime.dll
+    "E:/CPPlib/SelfLib/opencv/build/install/x64/vc17/bin/tbb12.dll",
+    "E:/CPPlib/SelfLib/opencv/build/install/x64/vc17/bin/opencv_world4120.dll"
+]
+
+LibPath = "E:\\SmartSecurity\\SmartSecurityLibN\\cmake-build-release-visual-studio\\Release\\SSC-FaceLib"
+
+YOLOV5ConfigPath = "./config/v5/yoloConfig.json"
+SSDConfigPath = "./config/testN/coffeConfig.json"
+FaceNetPath = "./config/facenet/facenet.json"
+ArcFacePath = "./config/arcface/arcface.json"
+YuNetPath = "./config/yunet/yunet.json"
